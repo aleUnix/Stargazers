@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Stargazers' do
+  use_frameworks!
+
+  # Pods for Stargazers
+  pod 'SDWebImage'
+  pod 'Moya'
+
+  target 'StargazersUITests' do
+    # Pods for testing
+  end
+  
+  target 'StargazersTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
